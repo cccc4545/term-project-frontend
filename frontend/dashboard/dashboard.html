@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,700|Raleway&display=swap">
+</head>
+<body>
+  <div class="main">
+    <div class="header">To Do List</div>
+    <div class="addList">
+      <input type="text" id="newItem" placeholder="新增待辦事項">
+      <input type="date" id="newDate">
+      <button class="btn-addNew" onclick="addItem()">+</button>
+    </div>
+    <ul class="listTo" id="todoList">
+      <!-- 預設的範例項目 -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
